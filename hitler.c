@@ -4,7 +4,7 @@
 
 int main()
 {
-	printf("Heil Hitler! \n");
+	printf("Heil\tHitler!\n\n");
 	printf("int storage size is %lu \n", sizeof(int));
 	printf("float max storage: %lu \n", sizeof(float));
 	printf("float min value: %E\n", FLT_MIN);
