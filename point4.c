@@ -10,7 +10,7 @@ int main()
 	ptr = var;
 	for (i=0; i<MAX; i++)
 	{
-		printf("Storage address: var[%d] = %lx\n", i, ptr);
+		printf("存储地址：var[%d] = %x\n", i, (unsigned int)ptr );
 		printf("Storage value: var[%d] = %d\n", i, *ptr);
 		ptr++;
 	}
